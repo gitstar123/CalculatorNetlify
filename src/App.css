@@ -17,6 +17,8 @@
 
   margin: 4px;
   border-radius: 5px;
+
+  font-weight: bold;
 }
 
 .input-wrapper {
@@ -54,8 +56,9 @@
 
 .navigationStyle>nav>h1{
   margin: 1% 2%;
-  padding: 1%;
+  padding: 1% 2%;
   background-color: #C5C6D0;
+  border-radius: 14px;
 }
 
 .link{

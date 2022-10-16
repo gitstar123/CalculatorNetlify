@@ -52,52 +52,52 @@ function App() {
         <Input text = {currentString} result = {answer}/>
       </div>
       <div className='row'>
-        <Button title = 'C' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={clearText}/>
-        <Button title = '(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = ')' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = ',' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '%' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '/' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'C' color = '#C8A951' currentStringColor = '#ffffff' handleClick={clearText}/>
+        <Button title = '(' color = '#E39FF6' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = ')' color = '#E39FF6' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = ',' color = '#F9E076' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '%' color = '#F9E076' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '/' color = '#F9E076' currentStringColor = '#ffffff' handleClick={append}/>
       </div>
       <div className='row'>
-        <Button title = 'sqrt(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = 'pow(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = 'asin(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '7' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '8' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '9' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '*' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'sqrt(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'pow(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'asin(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '7' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '8' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '9' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '*' color = '#F9E076' currentStringColor = '#ffffff' handleClick={append}/>
         
       </div>
       <div className='row'>
-        <Button title = 'tan(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = 'log(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = 'atan(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '4' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '5' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '6' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '-' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'tan(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'log(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'atan(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '4' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '5' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '6' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '-' color = '#F9E076' currentStringColor = '#ffffff' handleClick={append}/>
         
       </div>
       <div className='row'>
-        <Button title = 'sin(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = 'cos(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = 'acos(' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '1' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '2' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '3' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '+' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'sin(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'cos(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = 'acos(' color = '#E3242B' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '1' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '2' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '3' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '+' color = '#F9E076' currentStringColor = '#ffffff' handleClick={append}/>
       </div>
       <div className='row'>
-        <Button title = '.' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
-        <Button title = '0' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '.' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
+        <Button title = '0' color = '#41424C' currentStringColor = '#ffffff' handleClick={append}/>
         <Button title = '=' color = '#000' currentStringColor = '#ffffff' handleClick={findResult}/>
-        <Button title = 'del' color = '#C5C6D0' currentStringColor = '#ffffff' handleClick={clearLast}/>
+        <Button title = 'del' color = '#41424C' currentStringColor = '#ffffff' handleClick={clearLast}/>
       </div>
       <div>
-        <p>Last 10 Transactions</p>
+      <p style={{fontSize: 24 , fontWeight: 'bold', textDecoration: 'underline', marginTop: '5%', marginBottom: '3%'}}>History</p>
         {history.map((num) => {
-          return <li key = {num}>
+          return <li key = {num} style= {{fontSize: 18, fontWeight: 'bold', listStyle: 'none'}} >
             {num}
           </li>
         })}
